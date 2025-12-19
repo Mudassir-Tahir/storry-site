@@ -39,7 +39,7 @@ export default function AIPage() {
               icon: Bot,
               title: "AI Assistants",
               desc: "Chatbots, automation agents, workflow copilots, API-driven systems.",
-              img: "/images/services/ai/feature-assistantlaodu.png",
+              img: "/images/services/ai/feature-assistant.png",
             },
             {
               icon: Cpu,
