@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="b2" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#021026" stop-opacity="1"/>
+      <stop offset="0.5" stop-color="#041A30" stop-opacity="1"/>
+      <stop offset="1" stop-color="#021026" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="neon-rim" x1="0" x2="1">
+      <stop offset="0" stop-color="#00ffc2" stop-opacity="0.14"/>
+      <stop offset="0.5" stop-color="#67E8F9" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#3ad1ff" stop-opacity="0.14"/>
+    </linearGradient>
+    <filter id="blur4" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feBlend in="SourceGraphic" in2="b"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="120" fill="url(#b2)"/>
+
+  <g filter="url(#blur4)">
+    <path d="M0 80 C150 32 320 120 600 80 C880 40 1050 120 1200 80 L1200 0 L0 0 Z" fill="url(#neon-rim)"/>
+  </g>
+
+  <path d="M0 76 C160 30 340 116 600 76 C860 36 1040 118 1200 76" fill="none" stroke="#7DE3FF" stroke-opacity="0.22" stroke-width="1.6"/>
+
+  <g>
+    <animateTransform attributeName="transform" attributeType="XML" type="translate" from="0 0" to="-240 0" dur="26s" repeatCount="indefinite"/>
+  </g>
+</svg>

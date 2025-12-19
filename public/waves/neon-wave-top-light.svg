@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#7DE3FF" stop-opacity="0.18"/>
+      <stop offset="0.5" stop-color="#67E8F9" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0.14"/>
+    </linearGradient>
+    <filter id="blur1" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feBlend in="SourceGraphic" in2="b"/>
+    </filter>
+  </defs>
+
+  <!-- Soft glowing band -->
+  <g filter="url(#blur1)">
+    <path d="M0 48 C150 0 350 80 600 48 C850 -8 1050 88 1200 48 L1200 120 L0 120 Z" fill="url(#g1)"/>
+  </g>
+
+  <!-- Crisp thin wave line (foreground) -->
+  <path d="M0 60 C180 20 360 100 600 60 C840 20 1020 100 1200 60" fill="none" stroke="#AEEBFF" stroke-opacity="0.55" stroke-width="1.6"/>
+
+  <!-- gentle drift -->
+  <g>
+    <animateTransform attributeName="transform" attributeType="XML" type="translate" from="0 0" to="-200 0" dur="18s" repeatCount="indefinite"/>
+  </g>
+</svg>
