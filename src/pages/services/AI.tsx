@@ -119,7 +119,7 @@ export default function AIPage() {
             transition-all
           "
         >
-          Start AI Project NOW →
+          Start a Project →
         </a>
       </section>
     </div>
