@@ -51,7 +51,7 @@ export default function About() {
             that solve real business problems.
             <br /><br />
             Whether it’s scraping complex data, building dashboards, integrating machine learning,
-            automating workflows, or deploying cloud-native infrastructure — we do it with clarity,
+            automating workflows, or deploying cloud-native infrastructure. We do it with clarity,
             precision, and long-term maintainability in mind.
           </p>
         </div>

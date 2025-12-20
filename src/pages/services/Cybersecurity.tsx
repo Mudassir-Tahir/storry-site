@@ -87,7 +87,7 @@ export default function SecurityPage() {
 
               <p className="text-slate-300 leading-relaxed">
                 We use AI-backed detection, log correlation, and attacker behavior analytics  
-                to identify threats in real time — before they escalate.
+                to identify threats in real time, before they escalate.
               </p>
 
               <ul className="mt-6 grid gap-3 text-slate-400">

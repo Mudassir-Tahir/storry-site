@@ -83,7 +83,7 @@ export default function AIPage() {
               AI That Powers Growth
             </h2>
             <p className="text-slate-300 leading-relaxed">
-              From automated insights to enterprise-grade intelligence —
+              From automated insights to enterprise-grade intelligence, 
               our AI systems increase efficiency, reduce costs, and unlock
               new capabilities across your organization.
             </p>

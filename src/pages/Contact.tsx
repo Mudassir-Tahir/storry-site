@@ -126,19 +126,19 @@ export default function Contact() {
             </h2>
 
             <p className="text-slate-300 leading-relaxed">
-              We're ready to discuss your project — automation, AI/ML, dashboards,
+              We're ready to discuss your project, automation, AI/ML, dashboards,
               applications, cloud infrastructure, or security.
             </p>
 
             <div className="space-y-6 text-slate-300">
               <div className="flex gap-4 items-center">
-                <Mail className="text-[#67E8F9]" /> hello@storry.tech
+                <Mail className="text-[#67E8F9]" /> info@storry.tech
               </div>
               <div className="flex gap-4 items-center">
-                <Phone className="text-[#67E8F9]" /> +92 300 0000000
+                <Phone className="text-[#67E8F9]" /> +92 300 00047125
               </div>
               <div className="flex gap-4 items-center">
-                <MapPin className="text-[#67E8F9]" /> Islamabad, Pakistan (Remote)
+                <MapPin className="text-[#67E8F9]" /> Multan, Pakistan (Remote)
               </div>
             </div>
           </motion.div>

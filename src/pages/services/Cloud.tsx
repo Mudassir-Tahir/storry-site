@@ -122,7 +122,7 @@ export default function CloudPage() {
                 Data & Storage Patterns
               </h2>
               <p className="text-slate-300 leading-relaxed">
-                We architect secure, efficient, analytics-ready data systems —
+                We architect secure, efficient, analytics-ready data systems, 
                 from transactional workloads to pipelines & lakehouses.
               </p>
 
