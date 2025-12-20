@@ -38,3 +38,7 @@ jobs:
           local-dir: dist/
           server-dir: ./
           dangerous-clean-slate: true
+          state-name: .ftp-deploy-state.json
+          exclude: |
+            **/.git*
+            **/.git*/**
